@@ -20,10 +20,10 @@ public class Ejercicio12 {
 		
 			/*Declaramos un bucle que realizara el numero de intentos determinado, a no ser que la condicion se cumpla*/
 			for (int num=0; num<intentos && !correcto; num++) {
-					System.out.println("Introduce la contraseña: ");
-					String prueba = sc.nextLine();
-					
-					/*Comprobamos si coinciden los valores*/
+				System.out.println("Introduce la contraseña: ");
+				String prueba = sc.nextLine();	
+				
+				/*Comprobamos si coinciden los valores*/
 					if(prueba.equals(contraseña)){
 						System.out.println("Contraseña correcta! ");
 						correcto=true;
