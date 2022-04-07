@@ -47,7 +47,7 @@ public class CalculadoraInversa {
          		resultado=valor1%valor2;
          		break;
          	default:
-         		System.out.println("Signo de la operación no valido, intentelo de nuevo");
+         		System.out.println("El signo de la operación no valido, intentelo de nuevo");
          	}
 	     System.out.println( valor1+" "+signo+" "+valor2+" = "+resultado);
 	}
